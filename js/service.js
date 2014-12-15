@@ -1,4 +1,4 @@
-var umdIncidentFile = "./UMDIncidents.json"
+var umdIncidentFile = "https://github.com/kemaric/UMDCrimeHotspot/blob/master/UMDIncidents.json"
 
 angular.module('jsonService', ['ngResource'])
 .factory('JsonService', function($resource) {
